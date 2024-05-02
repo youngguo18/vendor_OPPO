@@ -1958,7 +1958,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
-    vendor.oplus.hardware.osense.client-V1.0-java \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
