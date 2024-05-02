@@ -495,6 +495,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/realme/sm8250-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
+    vendor/realme/sm8250-common/proprietary/vendor/etc/media_codecs_c2_oplus_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_oplus_audio.xml \
     vendor/realme/sm8250-common/proprietary/vendor/firmware/sn100u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u.bin \
     vendor/realme/sm8250-common/proprietary/odm/etc/ozosdk_CC160.license:$(TARGET_COPY_OUT_ODM)/etc/ozosdk_CC160.license \
     vendor/realme/sm8250-common/proprietary/odm/etc/ozosdk_CC169.license:$(TARGET_COPY_OUT_ODM)/etc/ozosdk_CC169.license \
@@ -1957,6 +1958,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
+    vendor.oplus.hardware.osense.client-V1.0-java \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
