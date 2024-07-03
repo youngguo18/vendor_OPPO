@@ -182,18 +182,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "realme",
-	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "dpmserviceapp",
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
@@ -227,12 +215,6 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "realme",
-	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 dex_import {
@@ -404,15 +386,6 @@ prebuilt_etc_xml {
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.hardware.sigma_miracast",
-	owner: "realme",
-	src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.hardware.sigma_miracast.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
