@@ -58,7 +58,7 @@ LVACFS_ABSOLUTE_PATH                   // PathDef
 0                                       // DeviceId0
 /odm/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt                       // Profile0
 /odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat             // CalibrationFile
-LVM_MODE_OFF                             // EnableDebug
+LVM_MODE_ON                             // EnableDebug
 LVM_MODE_OFF                            // StatusReporting
 /data/vendor/audio/LVAC_Status.bin          // LVAC_StatusFile
 LVACFS_PCM_MODE_CONTINUOUS                     // InPCMSavingMode

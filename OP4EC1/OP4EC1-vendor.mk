@@ -25,6 +25,29 @@ PRODUCT_COPY_FILES += \
     vendor/OPPO/OP4EC1/proprietary/odm/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b \
     vendor/OPPO/OP4EC1/proprietary/odm/etc/camera/config/s5k3m5:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5k3m5 \
     vendor/OPPO/OP4EC1/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm13.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm13_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13_low.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm14_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_low.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm15.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm15_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15_low.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm16.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm18.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm4.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm5.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm6.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm7.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm7.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm8.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm9.txt \
+    vendor/OPPO/OP4EC1/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
     vendor/OPPO/OP4EC1/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/OPPO/OP4EC1/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
     vendor/OPPO/OP4EC1/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
