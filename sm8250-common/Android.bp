@@ -92,6 +92,42 @@ android_app_import {
 }
 
 android_app_import {
+	name: "com.oplus.gpudrivers.sm8250.api30",
+	owner: "OPPO",
+	apk: "proprietary/vendor/app/com.oplus.gpudrivers.sm8250.api30/com.oplus.gpudrivers.sm8250.api30.apk",
+	presigned: true,
+	preprocessed: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "com.qualcomm.qti.gpudrivers.kona.api30",
+	owner: "oppo",
+	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk",
+	presigned: true,
+	preprocessed: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "com.oplus.vulkanLayer.apk",
+	owner: "OPPO",
+	apk: "proprietary/vendor/app/com.oplus.vulkanLayer/com.oplus.vulkanLayer.apk",
+	presigned: true,
+	preprocessed: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "PowerOffAlarm",
 	owner: "OPPO",
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",

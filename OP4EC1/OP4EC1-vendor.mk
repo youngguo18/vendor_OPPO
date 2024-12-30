@@ -251,13 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a620_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.elf \
     vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a620_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.mdt \
     vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b01 \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
-    vendor/OPPO/OP4EC1/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
     vendor/OPPO/OP4EC1/proprietary/vendor/firmware/dpAP_full.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_full.mbn \
     vendor/OPPO/OP4EC1/proprietary/vendor/firmware/dpAP_mini.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_mini.mbn \
     vendor/OPPO/OP4EC1/proprietary/vendor/firmware/dpMSA.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpMSA.mbn \

@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/OPPO/sm8250-common/proprietary/odm/bin/init.network.removedump.sh:$(TARGET_COPY_OUT_ODM)/bin/init.network.removedump.sh \
     vendor/OPPO/sm8250-common/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/OPPO/sm8250-common/proprietary/odm/bin/oemnvbkdaemon:$(TARGET_COPY_OUT_ODM)/bin/oemnvbkdaemon \
+    vendor/OPPO/sm8250-common/proprietary/odm/bin/irisConfig:$(TARGET_COPY_OUT_ODM)/bin/irisConfig \
     vendor/OPPO/sm8250-common/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/OPPO/sm8250-common/proprietary/odm/bin/sensor_recover.sh:$(TARGET_COPY_OUT_ODM)/bin/sensor_recover.sh \
     vendor/OPPO/sm8250-common/proprietary/odm/bin/vl53l1_daemon_main:$(TARGET_COPY_OUT_ODM)/bin/vl53l1_daemon_main \
@@ -500,6 +501,13 @@ PRODUCT_COPY_FILES += \
     vendor/OPPO/sm8250-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/OPPO/sm8250-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/OPPO/sm8250-common/proprietary/vendor/etc/media_codecs_c2_oplus_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_oplus_audio.xml \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b01 \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
+    vendor/OPPO/sm8250-common/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
     vendor/OPPO/sm8250-common/proprietary/vendor/firmware/sn100u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u.bin \
     vendor/OPPO/sm8250-common/proprietary/odm/etc/orms/orms_permission_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_permission_config.xml \
     vendor/OPPO/sm8250-common/proprietary/odm/etc/ozosdk_CC160.license:$(TARGET_COPY_OUT_ODM)/etc/ozosdk_CC160.license \
@@ -1962,6 +1970,9 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
+    com.oplus.gpudrivers.sm8250.api30 \
+    com.qualcomm.qti.gpudrivers.kona.api30 \
+    com.oplus.vulkanLayer \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogle \
     HotwordEnrollmentXGoogle \
